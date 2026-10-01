@@ -1,0 +1,6 @@
+setcps(125/60/4)
+
+$: note("<[~@4 f#4@4] [f#4 f4 d#4@6] [~@4 c#4 c#4 c#4@2] [c#4 d#4 a#3@2 c#4@2 d#4@2] [~@3 a#3 f#4@4] [f#4 f4 d#4@6]>")
+  .s("supersaw").lpf(2500).phaser(3).phaserdepth(.6).gain(.5)
+
+$: note("<[d#3,f#3,a#3] [b2,d#3,f#3]>")
