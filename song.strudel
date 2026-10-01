@@ -1,35 +1,35 @@
 setcps(125/60/4)
 
-$: note(`
-~@4 f#4@4 e4@2 d#4@2 c#4@4
-c#4@6 b3@2 c#4@2 e4@2 c#4@4
-c#4@12 c4@2 ~@2
-~@4 f#4@4 e4@2 d#4@2 c#4@4
-c#4@6 b3@2 c#4@2 e4@2 c#4@4
-c#4@12 b3@2 b3@2
-~@4 f#4@2 f#4@2 f#4@3 e4@5
-~@4 f#4@2 f#4@2 f#4@3 e4@3 d#4@4
-b3@2 c#4@2 b3@2 c#4@4 c#4@4
-c#4@2 c#4@2 f#4@2 f#4@2 f#4@3 e4@5
-~@4 f#4@2 g#4@2 f#4@3 e4@3 d#4@8
-~@10
-~@8 f#4@4 f#4@4
-f#4@2 f4@2 d#4@4 d#4@8
-~@8 c#4@2 c#4@2 c#4@4
-c#4@2 d#4@2 a#3@4 c#4@4 d#4@4
-~@6 a#3@2 f#4@4 f#4@4
-f#4@2 f4@2 d#4@4 d#4@8
-~@6 a#3@2 c#4@4 c#4@4
-c#4@2 d#4@2 a#3@4 c#4@4 d#4@4
-~@8 f#4@4 f#4@4
-f#4@2 f4@2 d#4@4 d#4@6 c#4@6
-~@4 c#4@4 c#4@4
-c#4@2 d#4@2 a#3@4 c#4@4 d#4@3 g#3@3 f#3@4 ~@2 f#4@4 f#4@4
-f#4@2 f4@2 d#4@4 d#4@8
-~@6 c#4@2 c#4@4 c#4@4
-d#4@4 a#3@8 ~@4
-`).slow(28)
-  .s("supersaw").lpf(2500).phaser(3).phaserdepth(.6).legato(1).gain(.5)
+$: cat(
+  note("~@4 f#4@4 e4@2 d#4@2 c#4@4"),           // Its always
+  note("c#4@6 b3@2 c#4@2 e4@2 c#4@4"),          // Arouunnd me all this 
+  note("c#4@12 c4@2 ~@2"),                      // Noiseeeee but
+  note("~@4 f#4@4 e4@2 d#4@2 c#4@4"),           // Not nearly as 
+  note("c#4@6 b3@2 c#4@2 e4@2 c#4@4"),          // louddd as the 
+  note("c#4@12 b3@2 b3@2"),                     // Voiceee.. Saying 
+  note("~@4 f#4@2 f#4@2 f#4@3 e4@5"),           // Let It Happen
+  note("~@4 f#4@2 f#4@2 f#4@3 e4@3 d#4@2"),     // Let It Happennn...
+  note("d#4@2 b3@2 c#4@2 b3@2 c#4@4 c#4@4"),    // Its gonna feels sooo..
+  note("c#4@2 c#4@2 f#4@2 f#4@2 f#4@3 e4@5"),   // Good, Just let it Happen
+  note("~@4 f#4@2 g#4@2 f#4@3 e4@3 d#4@2"),     // Let it happen...
+  note("d#4@6 ~@10"),                           //........
+  note("~@8 f#4@4 f#4@4"),                      // All This
+  note("f#4@2 f4@2 d#4@4 d#4@8"),               // Running Arounddd
+  note("~@8 c#4@2 c#4@2 c#4@4"),                // Trying to
+  note("c#4@2 d#4@2 a#3@4 c#4@4 d#4@4"),        // Cover My shadooww
+  note("~@6 a#3@2 f#4@4 f#4@4"),                // A notion 
+  note("f#4@2 f4@2 d#4@4 d#4@8"),               // Growing Inside
+  note("~@6 a#3@2 c#4@4 c#4@4"),                // Now all the  
+  note("c#4@2 d#4@2 a#3@4 c#4@4 d#4@4"),        // Others Seem shallow
+  note("~@8 f#4@4 f#4@4"),                      // All this 
+  note("f#4@2 f4@2 d#4@4 d#4@6 c#4@2"),         // Running aroundd
+  note("c#4@4 ~@4 c#4@4 c#4@4"),                // Bearing 
+  note("c#4@2 d#4@2 a#3@4 c#4@4 d#4@3 g#3@1"),  // Down on my shoulderss
+  note("g#3@2 f#3@4 ~@2 f#4@4 f#4@4"),          // I Can 
+  note("f#4@2 f4@2 d#4@4 d#4@8"),               // Hear An Alarmm
+  note("~@6 c#4@2 c#4@4 c#4@4"),                // Must be 
+  note("d#4@4 a#3@8 ~@4")                       // Morningg
+).s("supersaw").lpf(2500).phaser(3).phaserdepth(.6).legato(1).gain(.5)
 
 $: note("<[a3,c#4,e4] [f#3,a3,c#4] [[g#3,c#4,d#4] [g#3,c4,d#4]] [a3,c#4,e4] [f#3,a3,c#4] [g#3,b3,d#4] [a3,c#4,e4] [f#3,a3,c#4] [[g#3,c#4,d#4] [g#3,c4,d#4]] [a3,c#4,e4] [f#3,a3,c#4] [g#3,b3,d#4] [d#3,f#3,a#3] [b2,d#3,f#3] [c#3,f3,g#3] [f#3,g#3,c#4,e4] [d#3,f#3,a#3] [b2,d#3,f#3] [f3,g#3,c#4] [f#3,g#3,c#4] [d#3,f#3,a#3] [b2,d#3,f#3] [c#3,f3,g#3] [f#3,g#3,c#4,e4] [d#3,f#3,a#3] [b2,d#3,f#3] [f3,g#3,c#4] [c#3,f#3,g#3]>")
   .s("supersaw").lpf(1400).attack(.05).release(.4).phaser(2).room(.5).gain(.3)
