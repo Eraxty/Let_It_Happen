@@ -97,7 +97,17 @@ $: cat(
   note("g#4@2 g#4@2 g#4@2 ~@2 g#4@2 g#4@2 ~@2 a4@2"),  // Take the next ticket,
   note("a4@2 a4@2 a4@2 ~@2 a4@2 a4@2 ~@2 e4@2"),       // Get the next train
   note("e4@2 f#4@2 f#4@2 ~@2 f#4@2 f#4@2 ~@2 g#4@2"),  // Why would I do it?
-  note("g#4@2 g#4@2 g#4@2 ~@2 g#4@2 g#4@2 ~@4")        // Have you ever think that?
+  note("g#4@2 g#4@2 g#4@2 ~@2 g#4@2 g#4@2 ~@4"),       // Have you ever think that?
+  note("~@2 g#3@2 a4@4 a4@2 g#4@4 a4@2"),
+  note("~@2 a3@2 b4@4 b4@2 a4@4 a4@2"),
+  note("~@2 f#3@2 g#4@4 g#4@2 f#4@4 g#4@2"),
+  note("~@2 g#3@2 a4@1 a#4@3 g#4@4 g#2@4"),
+  note("d#4@2 c#4@8 d#4@2 e4@2 g#4@2"),                // Baby now im 
+  note("g#4@2 f#4@8 e4@2 d#4@2 b3@2"),                 // readyyyyyy moving on
+  note("b3@10 c#4@2 d#4@2 d#4@2"),                     // ohhhhh, But 
+  note("d#4@2 c#4@8 d#4@2 e4@2 g#4@2"),                // Maybe I was 
+  note("g#4@2 f#4@8 e4@2 d#4@2 d#4@2"),                // ready all along
+  note("d#4@10 e4@4 d#4@3")                            // Oh Baby
 ).s("supersaw").lpf(2500).phaser(3).phaserdepth(.6).legato(1).gain(.5)
 
 $: note("<[a3,c#4,e4] [f#3,a3,c#4] [[g#3,c#4,d#4] [g#3,c4,d#4]] [a3,c#4,e4] [f#3,a3,c#4] [g#3,b3,d#4] [a3,c#4,e4] [f#3,a3,c#4] [[g#3,c#4,d#4] [g#3,c4,d#4]] [a3,c#4,e4] [f#3,a3,c#4] [g#3,b3,d#4] [d#3,f#3,a#3] [b2,d#3,f#3] [c#3,f3,g#3] [f#3,g#3,c#4,e4] [d#3,f#3,a#3] [b2,d#3,f#3] [f3,g#3,c#4] [f#3,g#3,c#4] [d#3,f#3,a#3] [b2,d#3,f#3] [c#3,f3,g#3] [f#3,g#3,c#4,e4] [d#3,f#3,a#3] [b2,d#3,f#3] [f3,g#3,c#4] [c#3,f#3,g#3]>")
